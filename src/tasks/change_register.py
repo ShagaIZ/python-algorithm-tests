@@ -1,4 +1,4 @@
-def to_alternating_case(string):
+def to_alternating_case(string: str) -> str:
     result = ''
     for char in string:
         if char.isupper():
